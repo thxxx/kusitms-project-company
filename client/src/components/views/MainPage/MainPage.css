@@ -1,0 +1,37 @@
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:100%
+}
+td,th{
+    border:1px solid #dddddd;
+    text-align: left;
+    padding:8px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+.input::placeholder{
+    color:lightslategray
+}
+.input{
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    border-style:none;
+    width: 350px;
+    height:45px;
+}
+
+.tableheader{
+    display:'flex';
+    text-align: center;
+    background-color: #c6e5ff;
+}
+
+
+.tablechild{
+    display:'flex';
+    text-align: center;
+}
